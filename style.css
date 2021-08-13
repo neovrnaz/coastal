@@ -6,8 +6,8 @@
 
 body {
     font-family: "Fira Sans", serif;
-    background: linear-gradient(0deg, rgba(207, 207, 207, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
+
 
 /*================ Cards ================*/
 
@@ -19,6 +19,7 @@ body {
     margin: 10px;
     padding: 40px;
     border-radius: 10px;
+
 }
 
 .card__back {
@@ -47,6 +48,7 @@ body {
     grid-row: 2/4;
     font-weight: 400;
     color: black;
+
 }
 
 .card__paragraph {
