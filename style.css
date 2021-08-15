@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -16,8 +10,6 @@ body {
 }
 
 .card {
-    margin: 0;
-    padding: 9px;
     border-radius: 10px;
 }
 
@@ -26,13 +18,11 @@ body {
     border-radius: 10px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
     text-align: left;
-    padding: 23px;
 }
 
 .card__front {
     background: linear-gradient(0deg, rgba(0, 108, 255, 1) 0%, rgba(0, 159, 255, 1) 33%, rgba(0, 212, 255, 1) 100%);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
-    padding: 23px;
     margin-bottom: 10px;
 }
 
@@ -41,28 +31,25 @@ body {
     position: relative;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.50);
-    grid-row: 1/3;
     font-size: 27px;
-    margin-bottom: 19px;
     text-align: left;
+    padding-top: 23px;
+    margin: 13px;
 }
 
 .front {
-    grid-row: 3/4;
     font-weight: 400;
     color: white;
-    text-align: left;
+    margin-left: 13px;
 }
 
 .back {
-    grid-row: 2/4;
     font-weight: 400;
-    color: black;
-
+    color: #32424A;
+    margin-left: 14px;
 }
 
 .card__paragraph {
-    grid-row: 4/5;
     align-self: center;
 }
 
@@ -82,8 +69,8 @@ body {
 }
 
 .night_mode .card__front {
-    background: rgb(0,150,136);
-    background: linear-gradient(180deg, rgba(0,150,136,1) 0%, rgba(84,110,122,1) 100%);
+    background: rgb(0, 150, 136);
+    background: linear-gradient(180deg, rgba(0, 150, 136, 1) 0%, rgba(84, 110, 122, 1) 100%);
     color: #607D8B;
 }
 
@@ -92,13 +79,13 @@ body {
     background-color: #eeffff;
 }
 
+pre {
+    color: #eeffff;
+}
+
 
 /*================ Highlights ================*/
 
-.highlight  {
-    background: #1E272C;
-    color: #eeffff;
-}
 
 .highlight pre {
     font-family: 'Source Code Pro', monospace;
