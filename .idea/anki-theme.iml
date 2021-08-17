@@ -12,5 +12,6 @@
     <orderEntry type="jdk" jdkName="ruby-3.0.2-p107" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.4, ruby-3.0.2-p107) [gem]" level="application" />
+    <orderEntry type="library" name="d74b7a6262" level="application" />
   </component>
 </module>
