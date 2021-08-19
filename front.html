@@ -1,26 +1,16 @@
-<link rel="stylesheet" href="style.css">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap" rel="stylesheet">
 
 <script rel="preload" src="https://kit.fontawesome.com/d74b7a6262.js" crossorigin="anonymous"></script>
 
-<link rel="icon" href="data:,">
-
 <div class="main-container">
   <div class="cards">
     <div class="card card__front">
-      <!--      {{#Tags}}-->
-      <!--      <div class="card__icon"><i class="fas fa-{{Tags}}"></i></div>-->
-      <!--      {{/Tags}}-->
-      <div class="card__icon"><i class="fas fa-code"></i></div>
-      <!--      <h2 class="front">{{Front}}</h2>-->
-      <h2 class="front">This is the front</h2>
-    </div>
-
-    <div class="card card__back">
-      <h2 class="back">This is the back</h2>
+      {{#Icon}}
+      <div class="card__icon"><i class="fas fa-{{Icon}}"></i></div>
+      {{/Icon}}
+      <h2 class="front">{{Front}}</h2>
     </div>
   </div>
 </div>
