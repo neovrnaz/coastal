@@ -4,39 +4,45 @@
 }
 
 h2 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /*================ Cards ================*/
 
-.cards {
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-}
-
 .card {
     border-radius: 7px;
     text-align: left;
-    margin: 4.5px;
-    margin-top: 10px;
+    margin: 10px 5px 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.card__front {
-    background: rgb(0,212,255);
-    background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,108,255,1) 100%);
+.card--front {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(180deg, rgba(0, 212, 255, 1) 0%, rgba(0, 108, 255, 1) 100%);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
-    font-weight: 400;
     padding: 25px;
 }
 
-.card__back {
+.card--back {
     background-color: white;
     border-radius: 7px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
     padding: 25px;
 }
 
-.card__paragraph,
+/*================ Fields ================*/
+
+.card__front {
+    font-weight: 400;
+    color: white;
+}
+
+.card__back {
+    font-weight: 400;
+    color: #425B67;
+}
+
+
 .card__icon {
     position: relative;
     text-decoration: none;
@@ -45,20 +51,9 @@ h2 {
     padding-bottom: 14px;
 }
 
-.front {
-    font-weight: 400;
-    color: white;
-}
-
-.back {
-    font-weight: 400;
-    color: #425B67;
-}
-
 .card__paragraph {
-    align-self: center;
+    padding-top: 2px;
 }
-
 
 
 /*================ Dark Mode ================*/
@@ -75,13 +70,13 @@ h2 {
     background-color: #263238;
 }
 
-.night_mode .card__front {
+.night_mode .card--front {
     background: rgb(0, 150, 136);
     background: linear-gradient(180deg, rgba(0, 150, 136, 1) 0%, rgba(84, 110, 122, 1) 100%);
     color: #607D8B;
 }
 
-.night_mode .card__back {
+.night_mode .card--back {
     color: #607D8B;
     background-color: #eeffff;
 }
@@ -89,8 +84,6 @@ h2 {
 pre {
     color: #eeffff;
 }
-
-
 
 
 /*================ Code Highlights ================*/
@@ -103,7 +96,6 @@ pre {
     border-radius: 7px;
     padding: 25px;
 }
-
 .highlight .hll { background-color: #91B859 }
 .highlight .c { color: #AABFC9 } /* Comment */
 .highlight .err { color: #ff5370 } /* Error */

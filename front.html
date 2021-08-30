@@ -1,16 +1,30 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
 <script rel="preload" src="https://kit.fontawesome.com/d74b7a6262.js" crossorigin="anonymous"></script>
 
-<div class="main-container">
-  <div class="cards">
-    <div class="card card__front">
-      {{#Icon}}
-      <div class="card__icon"><i class="fas fa-{{Icon}}"></i></div>
-      {{/Icon}}
-      <h2 class="front">{{Front}}</h2>
-    </div>
+<!--<div class="card">-->
+  <div class="card card--front">
+    <!--  Fields  -->
+
+<!--    {{#Icon}}-->
+    <div class="card__icon"><i class="fas fa-code"></i></div>
+<!--    <div class="card__icon"><i class="fas fa-{{Icon}}"></i></div>-->
+<!--    {{/Icon}}-->
+
+    <h2 class="card__front">{{Front}}</h2>
+
+    <!-- Add fields here -->
+    <div class="card__pronunciation">{{Pronunciation}}</div>
+
   </div>
+<!--</div>-->
+
+<!--{{FrontSide}}-->
+
+<div class="card card--back">
+  <!-- Fields -->
+  <h2 class="card__back">{{Back}}</h2>
 </div>
