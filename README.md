@@ -14,9 +14,9 @@ Take a look at what is waiting for you:
 - Simple and Fast
 
 
-## Documentation
-
-Comprehensive documentation of the starter is available at 
+## Development
+## Plugins Supported:
+Syntax Highlighting for Code - [1463041493](https://ankiweb.net/shared/info/1463041493)
 
 ## Contributing
 
