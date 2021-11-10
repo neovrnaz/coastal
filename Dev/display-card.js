@@ -1,9 +1,10 @@
 const fieldReplacements = {
-    "{{Front}}": "FRONT",
-    "{{Back}}": "BACK",
+    "{{Front}}": "This is the front",
+    "{{Back}}": "This is the back",
+    "{{Icon}}": "code",
+    "{{FrontSide}}": "",
     "{{#Icon}}": "",
     "{{/Icon}}": "",
-    "{{Icon}}": "code",
 };
 
 function replaceString(str) {
