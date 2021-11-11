@@ -1,4 +1,4 @@
-# Ocean Anki Theme
+# Oceanic
 
 > If you are looking for a beautiful Anki theme, then you've come to the right place
 
