@@ -1,22 +1,13 @@
-# Material-AI - Anki theme
+# Ocean Anki Theme
+
+![Theme](../assets/Theme.png)
 
 > If you are looking for a beautiful Anki theme, then you've come to the right place
 
-### Material-AUI is an Anki theme, inspired by [Material UI](https://github.com/chrisrm/material-theme-jetbrains) 
-
-Take a look at what is waiting for you:
-
-- [Beautiful Syntax highlighting]()
-- Both [Lighter]() and [Oceanic]() theme are included
-- [Font Awesome]() for adding icons to cards
-- Accurate color representations []()
-- Design is consistent with Anki UI [Namespaces](http://php.net/manual/pl/language.namespaces.php)
-- Simple and Fast
-
+### Ocean is a beautiful Anki theme, developed to be minimal and lightweight
 
 ## Development
-## Plugins Supported:
-Syntax Highlighting for Code - [1463041493](https://ankiweb.net/shared/info/1463041493)
+Dev folder contains an index.html that can be used to simulate Anki enviornment. The only thing left for you to do it to make sure you keep the theme in Anki and your IDE in sync
 
 ## Contributing
 
@@ -24,10 +15,8 @@ Great that you are considering supporting the project. You have a lot of ways to
 
 - Report an issue
 - Propose a feature
-- Send a pull request
-- Star project on the [GitHub]()
-- Tell about project around your community
+- Star project on the GitHub
 
 ## License
 
-The Material-AUI Theme is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+MIT
