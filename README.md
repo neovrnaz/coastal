@@ -4,7 +4,7 @@
 
 ![Theme](../assets/Theme.png)
 
-### Ocean is a beautiful Anki theme, developed to be minimal and lightweight
+### Ocean is an Anki theme, developed to be minimal and lightweight
 
 ## Development
 Dev folder contains an index.html that can be used to simulate Anki enviornment. The only thing left for you to do it to make sure you keep the theme in Anki and your IDE in sync
