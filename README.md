@@ -1,4 +1,4 @@
-# Ocean Anki Theme
+# Ocean
 
 ![Theme](../assets/Theme.png)
 
