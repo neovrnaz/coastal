@@ -8,7 +8,7 @@
 
 ## Tips
 - Create an `Icon` field in your note type if you intend on adding an icon to your note
-- To create a note type without any icon, you should remove the font awesome script tag near the top of front.html to speed up loading a bit
+- To create a note type without any icon, you should remove the font awesome script tag near the top of front.html
 
 ## Development
 Dev folder contains an index.html that can be used to simulate Anki enviornment. The only thing left for you to do is to make sure you keep the theme in Anki and your IDE in sync
