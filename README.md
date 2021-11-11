@@ -1,8 +1,8 @@
 # Ocean
 
-![Theme](../assets/Theme.png)
-
 > If you are looking for a beautiful Anki theme, then you've come to the right place
+
+![Theme](../assets/Theme.png)
 
 ### Ocean is a beautiful Anki theme, developed to be minimal and lightweight
 
