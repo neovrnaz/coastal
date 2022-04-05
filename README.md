@@ -2,7 +2,7 @@
 
 > A beatiful and minimal Anki theme
 
-![Theme](../assets/Theme.png)
+![Theme](../assets/coastal.png)
 
 ### Ocean is an Anki theme, designed to be minimal and lightweight
 
