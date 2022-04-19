@@ -1,0 +1,5 @@
+<div class="card card--front">
+  <h2 class="card__front">
+    {{cloze:Text}}<br>
+    {{Back Extra}}</h2>
+</div>
