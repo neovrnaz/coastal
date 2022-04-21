@@ -1,12 +1,3 @@
-.cloze {
- font-weight: bold;
- color: #ffff00;
-}
-
-.nightMode .cloze {
- color: white;
-}
-
 * {
     margin: 0;
     padding: 0;
