@@ -1,3 +1,11 @@
+.cloze {
+ font-weight: bold;
+ color: #F78d6d;
+}
+.nightMode .cloze {
+ color: Orange;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,20 +22,11 @@ p {
 }
 
 ol {
-    padding-left: 24px;
+    padding-left: 25px;
 }
 
 b {
     font-weight: 500;
-}
-
-img {
-		border-radius: 10px;
-		margin-top: 20px;
-}
-
-li {
-		margin: 25px;
 }
 
 /*================ Cards ================*/
@@ -65,14 +64,6 @@ li {
 .card__back {
     font-weight: 400;
     color: #425B67;
-}
-
-.card__icon {
-    position: relative;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 28px;
-    padding-bottom: 14px;
 }
 
 /*================ Dark Mode ================*/
