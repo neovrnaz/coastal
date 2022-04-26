@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    margin-bottom: 0;
+    color: white;
+}
+
+p {
+    padding-top: 2px;
+}
+
+/*================ Cards ================*/
+
+.card {
+    border-radius: 7px;
+    text-align: left;
+    margin: 10px 5px 5px;
+		font-size: 18px;
+}
+
+.card--front {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(180deg, rgba(0, 212, 255, 1) 0%, rgb(0, 128, 255) 100%);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+    padding: 25px;
+}
+
+.card--back {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+    padding: 25px;
+
+}
+
+/*================ Fields ================*/
+
+.card__front {
+    font-weight: 400;
+    color: white;
+}
+
+.card__back {
+    font-weight: 400;
+    color: #425B67;
+}
+
+.card__icon {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 27px;
+    padding-bottom: 14px;
+}
+
+/*================ Dark Mode ================*/
+
+.night_mode b {
+    color: #314549;
+}
+
+.night_mode hr {
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+
+.night_mode.card {
+    background-color: #263238;
+}
+
+.night_mode .card--front {
+    background: rgb(0, 150, 136);
+    background: linear-gradient(180deg, rgba(0, 150, 136, 1) 0%, rgba(84, 110, 122, 1) 100%);
+    color: #607D8B;
+}
+
+.night_mode .card--back {
+    color: #607D8B;
+    background-color: #eeffff;
+}
+
+pre {
+    color: #eeffff;
+}
