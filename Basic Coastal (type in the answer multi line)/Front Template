@@ -1,9 +1,12 @@
-<div class="card card--front">
-  <h2 class="card__front">{{Front}}</h2>
-</div>
+<!-- 
+	Please install Add-on:
 
-<div class="card card--back">
-  <!-- Fields -->
-	<hr id=answer>
-			[[typebox:Back]]
+	Aldrich, Robbie. (2022) Multi-Line Type Answer Box. Anki Plugin https://ankiweb.net/shared/info/681236951. 
+-->
+
+<div class="card card--front">
+  <h2 class="card__front">
+		{{Front}}
+		[[typebox:Back]]
+	</h2>
 </div>
