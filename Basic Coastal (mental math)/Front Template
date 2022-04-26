@@ -1,0 +1,4 @@
+<div class="card card--front">
+  <!--  Fields  -->
+  <h1 class="card__front">{{Front}}</h1>
+</div>
