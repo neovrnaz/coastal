@@ -19,6 +19,11 @@
 - Once you've created an `Icon` field, optionally fill it with the name of one of the icons found over [Font Awesome](https://fontawesome.com/search?s=solid%2Cbrands)
 - There might be times when there aren't any icons that seem suitable. In that case, you can create a new note type called `Basic Coastal (no icon)` and remove the `{{#Icon}}...{{/Icon}}` tags from the Front Template
 
+## Optional
+- Show the current notes' subdeck on front if the `Icon` field is left blank
+  1. Download the [Special Fields](https://ankiweb.net/shared/info/1102281552) Plugin
+  2. Within the note types' Front Template `<div>` tag, insert the following: `{{^Icon}}<div class="card__subdeck">{{Subdeck}}</div>{{/Icon}}`
+
 ## FAQ
 - Why use icons?
 - **A:** Icons can be a great alternative to pictures and can be applied to almost any note
