@@ -6,19 +6,17 @@
 
 ## Usage
 - Import the note type
-  1. `Note Types`  `Manage` > `Add` > `Add: Basic` > `Name: Basic Coastal`
+  1. `Note Types`  `Manage` > `Add` > `Add: Basic` > `Name: Basic Coastal` (or `Cloze Coastal`)
   2. `Fields` > `Add` > `Field Name: "Icon"` > `Save`
   3. Click on `Cards` (in other menu or while editing a note)
   4. Add the code from GitHub to each Template (Front, Back, Styling)
-  5. Repeat steps for each desired note type
+  5. Repeat steps for other note type
 
-**OR**
+  **OR**
 
-- Download a [Sample Deck](../assets/Example%20Deck.apkg)
+  - Download a [Sample Deck](../assets/Example%20Deck.apkg)
 
-Optional:
-- For each note type, create an `Icon` field and fill it in with the name of one of the icons found over Font Awesome [website](https://fontawesome.com/search?s=solid%2Cbrands). (e.g `book`)
-- 
+- Once you've created an `Icon` field each note type, (optionally) fill it with the name of one of the icons found over [Font Awesome](https://fontawesome.com/search?s=solid%2Cbrands)
 
 ## FAQ
 - Why use icons?
