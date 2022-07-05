@@ -17,6 +17,7 @@
   - Download a [Sample Deck](../assets/Example%20Deck.apkg)
 
 - Once you've created an `Icon` field each note type, (optionally) fill it with the name of one of the icons found over [Font Awesome](https://fontawesome.com/search?s=solid%2Cbrands)
+- There might be times when there aren't any icons that seem suitable. In that case, you can create a new note type called `Basic Coastal (no icon)` and remove the {{#Icon}}...{{/Icon}} tags from the Front Template
 
 ## FAQ
 - Why use icons?
