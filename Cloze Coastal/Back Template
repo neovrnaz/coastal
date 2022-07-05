@@ -1,8 +1,6 @@
-{{FrontSide}}
-
-<div class="card card--back">
+<div class="card card--cloze">
   <!-- Fields -->
-  <h2 class="card__back">
+  <h2 class="card__cloze">
 		{{cloze:Text}}
 		{{Back Extra}}
 	</h2>
