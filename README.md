@@ -8,7 +8,7 @@
 - Import the note type
   1. Note Types > Manage > Add > Clone: Basic
   2. Name it anything (e.g `Basic Coastal`)
-  3. (While editing a card) Cards...
+  3. Click on `Cards` (in other menu or while editing a note)
   4. Add the code from GitHub to each Template (Front, Back, Styling)
   5. Repeat steps for each desired note type
 
