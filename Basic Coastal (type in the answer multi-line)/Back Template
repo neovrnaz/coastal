@@ -1,9 +1,0 @@
-<div class="card card--front">
-  <h2 class="card__front">{{Front}}</h2>
-</div>
-
-<div class="card card--back">
-  <!-- Fields -->
-	<hr id=answer>
-			[[typebox:Back]]
-</div>
