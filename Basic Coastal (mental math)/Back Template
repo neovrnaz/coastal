@@ -1,6 +1,0 @@
-{{FrontSide}}
-
-<div class="card card--back">
-  <!-- Fields -->
-  <h1 class="card__back">{{Back}}</h1>
-</div>
