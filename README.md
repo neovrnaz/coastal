@@ -5,7 +5,7 @@
 ![Theme](../assets/coastal-desktop.png)
 
 ## Usage
-- Import the note type
+- Manually Add Templates
   1. `Note Types`  `Manage` > `Add` > `Add: Basic` > `Name: Basic Coastal` (or `Cloze Coastal`)
   2. `Fields` > `Add` > `Field Name: "Icon"` > `Save`
   3. Click on `Cards` (in other menu or while editing a note)
